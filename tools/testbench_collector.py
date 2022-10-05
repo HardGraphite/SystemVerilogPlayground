@@ -48,7 +48,7 @@ def scan_file(file: pathlib.Path) -> ModuleInfo:
 		tb_code = buffer.getvalue()
 
 	if not tb_code:
-		raise RuntimeError(f'{file!r} does not contain valid testbench code')
+		print('WARNING:', f'{file!r} does not contain valid testbench code')
 
 	return ModuleInfo(file, mod_name, tb_code)
 
