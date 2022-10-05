@@ -11,3 +11,17 @@ always_comb begin
 end
 
 endmodule
+
+/*?{{
+logic y, a, b;
+
+nor2 nor2_inst(.*);
+
+initial begin
+	#10ns a = 0; b = 0;
+	#10ns a = 0; b = 1;
+	#10ns a = 1; b = 0;
+	#10ns a = 1; b = 1;
+	#10ns ;
+end
+}}*/

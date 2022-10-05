@@ -3,3 +3,9 @@
 !.git*
 
 build/
+*.vvp
+*.vcd
+
+__pycache__/
+*.pyc
+*.pyo
