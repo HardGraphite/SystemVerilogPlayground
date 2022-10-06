@@ -83,7 +83,7 @@ def generate_testbench(mod: ModuleInfo, dumpfile: str, file: pathlib.Path):
 
 
 def default_output_file(source: pathlib.Path) -> pathlib.Path:
-    return source.parent / (source.stem + '_tb') / source.suffix
+    return source.parent / (source.stem + '_tb' + source.suffix)
 
 
 def main():
