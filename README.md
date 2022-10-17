@@ -13,3 +13,4 @@ for the *Digital System Design* course.
 - 3.2/For you to do: [3-8 decoder](code/decoder3to8.sv)
 - 4.1: [decoder with parameter](code/decoder_n.sv)
 - 4.2/For you to do: [three-state MUX](code/three_state_mux.sv)
+- 4.3/For you to do: [priority encoder](code/priority_encoder.sv)
