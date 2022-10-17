@@ -17,6 +17,7 @@ always_comb begin
 		3'b101: out = f;
 		3'b110: out = g;
 		3'b111: out = h;
+		default:out = 'x;
 	endcase
 end
 
