@@ -15,3 +15,4 @@ for the *Digital System Design* course.
 - 4.2/For you to do: [three-state MUX](code/three_state_mux.sv)
 - 4.3/For you to do: [priority encoder](code/priority_encoder.sv)
 - 5.2/For you to do: [register](code/register_5_2.sv)
+- 5.3/For you to do: [SIPO](code/sipo.sv), [PISO](code/piso.sv)
